@@ -1,0 +1,28 @@
+
+/* hacerle un margin al titulo principal "fotos contenido de juego" */
+
+h1 {
+    margin: 2rem;
+}
+
+/* separar el article del nav con un margin-top */
+
+article {
+    margin-top: 4rem;
+}
+
+/* modificar las imagenes del section */
+
+section img {
+    width: 30rem;
+    height: auto;
+}
+
+/* centrar el texto de las imagenes y flotarlas/moverlas para que queden centradas */
+
+section {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 11rem;
+    float: left;
+}

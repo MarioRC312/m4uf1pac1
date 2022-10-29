@@ -1,0 +1,96 @@
+
+/* main */
+
+/* separar un poco el titulo y hacerlo mas grande */
+
+h1 {
+    margin: 3rem; 
+    font-size: 2rem; 
+}
+
+/* hacer flotar el main */
+
+main {
+    float: left;
+}
+
+/* hacer floar el article dentro del main */
+
+main article{
+    float: left;
+    margin: 2rem;
+}
+
+/* alinear los titulos h2 de los section */
+
+section h2 {
+    text-align: center;
+}
+
+/* hacer las imagenes de los personajes mas grande y poner espacio entre ellas */
+
+section > img{
+    width: 20rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+/* hacer flotar las imagenes de los persaonajes */
+
+#claire {
+    float: left;
+}
+
+#alcina {
+    float: left;
+}
+
+#valentine {
+    float: left;
+}
+
+#kennedy {
+    float: left;
+}
+
+/* aside */
+
+/* separar un poco el aside del main  */
+
+aside{
+    margin: 5rem 5rem 1rem 1rem;
+    float: left;
+}
+
+/* modificar los titulos del aside para que estan mas separados y sean mas grandes (h2) */
+
+aside h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+/* modificar los titulos del aside para que estan mas separados y sean mas grandes (h3) */
+
+aside h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+/* footer */
+
+
+footer {
+    margin: 1rem;
+    clear: both;
+}
+
+footer ul {
+    list-style: none;
+} 

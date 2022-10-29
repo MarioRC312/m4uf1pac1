@@ -1,0 +1,84 @@
+
+/* Aspectos que afectan a la paguina entere */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* fondo del header sin que se repita */
+
+header {
+    background-image: url(../img/logo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+/* establecer el color de la letra en rojo */
+
+body {
+    color: red;
+}
+
+/* que el navegador este en linea */
+
+nav ul li {
+    display: inline;
+}
+
+/* centrar el texto del ul */
+
+ul {
+    text-align: center;
+}
+
+/* establecer un color, un borde, un radio de borde, un tamaño de letra, un padding (margen interior) y quitarle los puntos (text-decoration: none) a todo el navegador */
+
+.indice {
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: red;
+    border: solid red;
+    border-radius: 0.5rem;
+    
+}
+
+/* cuando pasa el raton por encima el fondo y la letra del navegador cambia */
+
+.indice:hover {
+    background-color: black;
+    color: red;
+}
+
+/* quitarle al footer toda la decoracion de los li y limpiarlo de floats para que no suba */
+
+footer {
+    text-decoration: none;
+    margin: 1rem;
+    clear: both;
+}
+
+/* modificar el tamaño de los logos de redes sociales para que sean mas pequeñas y estan en un lateral */
+
+footer img{
+    width: 2rem;
+    text-align: center;
+    float: left;
+    margin: 1rem;
+}
+
+/* quitar el formato de lista al footer */
+
+footer ul {
+    list-style: none;
+} 
+
+
+

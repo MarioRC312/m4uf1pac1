@@ -1,0 +1,20 @@
+/* separar ligeramente el texto del nav y cambiar su tamaño */
+
+h2 {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+/* flotar los videos para que esten uno al lado del otro y separalos con margin */
+
+section {
+    float: left;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+}
+
+/* cambiar el tamaño los parrafos de los section */
+
+section p {
+    font-size: 2rem;
+}

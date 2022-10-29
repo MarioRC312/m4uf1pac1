@@ -1,0 +1,67 @@
+/* article */
+
+/* separar el article de la parte superior */
+
+article {
+    margin-top: 3rem;
+}
+
+/* separar el titulo (h2) del article */
+
+article h2 {
+    margin: 2rem;
+}
+
+/* separar el titulo (h3) del article, parte superor, lateral izquiero, lateral derecho */
+
+article h3 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* a los parrafos de article hacerles un padding para separarlos (de forma interna) */
+
+article p {
+    padding: 1rem;
+}
+
+/* alinear la foto del #lanzamiento, junto a su texto */
+
+#lanzamiento {
+    text-align: center;
+}
+
+/* modificar el tamaño de la imagen de #lanzamiento */
+
+#lanzamiento img{
+    width: 35rem;
+    height: auto;
+}
+
+/* alinear la foto del #disponibilidad, junto a su texto */
+
+#disponibilidad {
+    text-align: center;
+}
+
+/* modificar el tamaño de la imagen de #disponibilidad */
+
+#disponibilidad img {
+    width: 50rem;
+    height: auto;
+}
+
+/* alinear la foto del #disponibilidad, junto a su texto */
+
+#octubre_2022 {
+    text-align: center;
+}
+
+/* aside */
+
+/* a los parrafos de aside hacerles un padding para separarlos (de forma interna) */
+
+aside  {
+    padding: 1rem;
+}

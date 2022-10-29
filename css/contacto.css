@@ -1,0 +1,24 @@
+/* separa el titulo principal del nav */
+
+h1 {
+    margin: 5rem 2rem 2rem 2rem;
+    
+}
+
+/* alinear en el centro el titulo h2 */
+
+h2 {
+    text-align: center;
+}
+
+/* alinear en el centro el titulo h3 */
+
+h3 {
+    text-align: center;
+}
+
+/* mover los iframes para que queden centrados */
+
+iframe {
+    margin: 2rem 2rem 2rem 28rem;
+}

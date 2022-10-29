@@ -1,0 +1,29 @@
+/* separar el titulo principal del nav */
+
+h1 {
+    margin: 2rem;
+}
+
+/* alinear en el centro el texto h2 */
+
+h2{
+    text-align: center;
+}
+
+/* establecer un borde solido de 10px de grosor, bordes redondos de 8px y separalo con margins */
+
+table {
+    border: solid red 10px;
+    border-radius: 8px;
+    margin: 2rem;
+    margin-left: 15em;
+}
+
+/* establecer bordes rojos */
+
+td {
+    border: solid red;
+}
+
+
+
