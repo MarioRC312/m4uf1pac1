@@ -1,554 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-         <meta charset="utf-8">
-         <meta name="author" content="mario ruiz castillo">
-         <meta name="description" content="m4-uf1-practica_2">
-         <meta name="keywords" content="agenda">
-         <link rel="shortcut icon" href="../img/logo_letra.PNG" content="logo_letra_R">
-         <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css">
-         <link rel="stylesheet" type="text/css" href="../css/common.css">
-         <link rel="stylesheet" type="text/css" href="../css/agenda.css">
-         <title>Resident evil</title> 
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="mario ruiz castillo">
+    <meta name="description" content="m4-uf1-practica_3:agenda">
+    <meta name="keywords" content="agenda">
+    <link rel="shortcut icon" href="../img/logo_letra.PNG" content="logo_letra_R">
+    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../vendor/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/agenda.css">
+    <title>Resident evil</title>
+  </head>
 
-    <body>
+  <body>
+    <header>
+      <!-- la imagen del logo esta en css -->
+    </header>
 
-		        <header>
+    <main>
+      <nav class="col-12 col-md-12">
+        <ul>
+          <li><a class="indice" href="../index.html">Indice</a></li>
 
-                    <!-- la imagen del logo esta en css -->
+          <li><a class="indice" href="../web/general.html">General</a></li>
 
-		        </header>
+          <li><a class="indice" href="../web/fotos.html">Fotos</a></li>
 
-                <main>
+          <li><a class="indice" href="../web/videos.html">Videos</a></li>
 
-                    <nav>
+          <li><a class="indice" href="../web/agenda.html">Agenda</a></li>
 
-                        <ul>
+          <li><a class="indice" href="../web/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
 
-                            <li><a class="indice" href="../index.html">Indice</a></li>
+      <article id="article" class="col-12 col-md-12">
+        <div id="titulo">
+          <h2>Agenda</h2>
+        </div>
 
-                            <li><a class="indice" href="../web/general.html">General</a></li>
+        <div class="month">
+          <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>Enero<br><span style="font-size: 18px">2023</span></li>
+          </ul>
+        </div>
 
-                            <li><a class="indice" href="../web/fotos.html">Fotos</a></li>
+        <ul class="weekdays">
+          <li>Lu</li>
+          <li>Ma</li>
+          <li>Mi</li>
+          <li>Ju</li>
+          <li>Vi</li>
+          <li>Sa</li>
+          <li>Do</li>
+        </ul>
 
-                            <li><a class="indice" href="../web/videos.html">Videos</a></li>
+        <ul class="days">
+          <li>1: <br><p class="texto_agenda">Trailer: RE 4 remake</p></li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li><span class="active">10</span></li>
+          <li>11</li>
+          <li>12: <br><p class="texto_agenda">Show Case</p></li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+          <li>16</li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+          <li>22</li>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li>26</li>
+          <li>27: <br><p class="texto_agenda">Shadows of rose</p></li>
+          <li>28</li>
+          <li>29</li>
+          <li>30</li>
+          <li>31</li>
+        </ul>
+      </article>
+    </main>
 
-                            <li><a class="indice" href="../web/agenda.html">Agenda</a></li>
+    <footer class="col-12 col-md-12">
+    <div id="div_footer">
+        <p>copyright © 2022 Mario Ruiz</p>
 
-                            <li><a class="indice" href="../web/contacto.html">Contacto</a></li>
+        <!-- Estructura de div y ul para a la hora de modificarlo con css sea mas facil moverlo -->
 
-                        </ul>
+        <ul>
+          <li><a href="https://twitter.com/re_games" target="_blank"><img class="img_footer" src="../img/twitter.png" alt="logo_twitter"></a></li>
 
-                    </nav>
+          <li><a href="https://www.instagram.com/residentevil/?hl=es" target="_blank"><img class="img_footer" src="../img/instagram.png" alt="logo_instagram"></a></li>
 
-                    <h1>Futuros eventos</h1>
-
-                        <h2>2022-23</h2>
-
-                        <table>
-
-                            <tr>
-                                <th></th>
-                                <th>1</th>
-                                <th>2</th>
-                                <th>3</th>
-                                <th>4</th>
-                                <th>5</th>
-                                <th>6</th>
-                                <th>7</th>
-                                <th>8</th>
-                                <th>9</th>
-                                <th>10</th>
-                                <th>11</th>
-                                <th>12</th>
-                                <th>13</th>
-                                <th>14</th>
-                                <th>15</th>
-                                <th>16</th>
-                                <th>17</th>
-                                <th>18</th>
-                                <th>19</th>
-                                <th>20</th>
-                                <th>21</th>
-                                <th>22</th>
-                                <th>23</th>
-                                <th>24</th>
-                                <th>25</th>
-                                <th>26</th>
-                                <th>27</th>
-                                <th>28</th>
-                                <th>29</th>
-                                <th>30</th>
-                                <th>31</th>
-                            </tr>
-            
-                            <tr>
-            
-                                <th>Enero</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>Resident evil Show Case</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                
-            
-                            </tr>
-            
-                            <tr>
-            
-                                <th>Febrero</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>Shadows of Rose parte 2</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-            
-                            <tr>
-            
-                                <th>Marzo</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>Resident Evil 4 remake</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-                        
-                            <tr>
-            
-                                <th>Abril</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-            
-                            <tr>
-            
-                                <th>Mayo</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-            
-                            <tr>
-            
-                                <th>Junio</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-            
-                            <tr>
-            
-                                <th>Julio</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-
-                            <tr>
-            
-                                <th>Agosto</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-
-                            <tr>
-            
-                                <th>Septiembre</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-
-                            <tr>
-            
-                                <th>Octubre</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-
-                            <tr>
-            
-                                <th>Noviembre</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-
-                            <tr>
-            
-                                <th>Diciembre</th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-            
-                            </tr>
-            
-                        </table>
-
-                    </main>
-
-            <footer>
-                <p>copyright © 2022 Mario Ruiz</p>
-
-                <!-- Estructura de div y ul para a la hora de modificarlo con css sea mas facil moverlo -->
-                <div>
-    
-                    <ul>
-    
-                        <li><a href="https://twitter.com/re_games" target="_blank"><img src="../img/twitter.png" alt="logo_twitter"></a></li>
-                        
-                        <li><a href="https://www.instagram.com/residentevil/?hl=es" target="_blank"><img src="../img/instagram.png" alt="logo_instagram"></a></li>
-    
-                        <li><a href="https://www.facebook.com/residentevil/?brand_redir=1038883576197572" target="_blank"><img src="../img/facebook.png" alt="logo_facebook"></a></li>
-    
-                    </ul>
-    
-                </div>
-            </footer>
-    </body>
+          <li><a href="https://www.facebook.com/residentevil/?brand_redir=1038883576197572" target="_blank"><img class="img_footer" src="../img/facebook.png" alt="logo_facebook"></a></li>
+        </ul>
+    </div>
+    </footer>
+  </body>
 </html>

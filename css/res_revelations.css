@@ -1,16 +1,5 @@
-h1 {
-    font-size: 30px;
-    margin: 1rem;
-}
-
-h2{
-    font-size: 15px;
-    padding: 0.90rem;
-}
-
 header {
-
-  
+    
     height: 16.6vh;
 }
 
@@ -20,42 +9,58 @@ nav {
 
 article {
     height: auto;
-    font-size: 20px;
 }
 
-
-section img{
-    width: 200px;
+h1 {
+    padding: 1rem;
 }
 
-section img:hover{
-    transform: scale(1.25);
-    transition-duration: 1s;
-    margin: 0.25rem;
+article p {
+    padding: 1rem;
 }
 
-section{
-    margin: 1rem;
+strong {
+    color: red;
 }
 
-#section_fotos{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+aside {
+    height: auto;
 }
 
-.class{
+.img_aside{
     display: flex;
     justify-content: center;
 }
 
-footer {
+aside img{
+    width: 450px;
+}
+
+#wiki{
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+#wiki a{
+    text-decoration: none;
+}
+
+#texto{
+    font-size: 50px;
+    font-weight: bolder;
+    background-image: url("../img/foto_texto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer{
     height: 8.3vh;
-
 }
-
-
 
 
 /* Mediaqueri */
@@ -138,13 +143,22 @@ footer {
         font-size: 2rem; 
         padding: 1rem;  
     }
-    section img:hover{
-        transform: scale(1.25);
-        transition-duration: 1s;
-        margin: 1rem;
+    #article {
+        height: auto;
+        padding: 1rem;
     }
-    #article {height: auto;}
+    aside img{
+        width: 600px;
+        height: auto;
+    }
+    #wiki{
+        height: auto;
+    }
+    .img_aside{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
     #aside{height: 84.4vh;}
     footer {height: 25vh;}
-    
 }

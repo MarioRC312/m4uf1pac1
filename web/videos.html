@@ -3,7 +3,7 @@
     <head>
          <meta charset="utf-8">
          <meta name="author" content="mario ruiz castillo">
-         <meta name="description" content="m4-uf1-practica_2">
+         <meta name="description" content="m4-uf1-practica_3:videos">
          <meta name="keywords" content="videos">
          <link rel="shortcut icon" href="../img/logo_letra.PNG" content="logo_letra_R">
          <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css">
@@ -14,7 +14,7 @@
 
     <body>
 
-		        <header>
+		        <header class="col-12 col-md-12">
 
                     <!-- la imagen del logo esta en css -->
                     
@@ -22,7 +22,7 @@
 
                 <main>
 
-                    <nav>
+                    <nav class="col-12 col-md-12">
 
                         <ul>
 
@@ -42,51 +42,60 @@
 
                     </nav>
 
-                    <h2>Trailers:</h2>
+                    
 
-                    <article>
+                    <article id="article" class="col-12 col-md-12">
 
-                        <section>
-                            <p>Resident Evil 2 remake</p>
-                            <iframe width="560" height="315" preload src="https://www.youtube.com/embed/u3wS-Q2KBpk"></iframe>
-                        </section>
+                        <h2>Trailers:</h2>
 
-                        <section>
-                            <p>Resident Evil 3 remake</p>
-                            <iframe width="560" height="315" preload src="https://www.youtube.com/embed/BBky2uCGqtM"></iframe>
-                        </section>
+                        <!-- original iframes: width="560" height="315" -->
 
-                        <section>
-                            <p>Resident Evil 4 remake</p>
-                            <iframe width="560" height="315" preload src="https://www.youtube.com/embed/O75Ip4o1bs8"></iframe>
-                        </section>
+                        <div id="trailers">
+                        
+                            <section>
+                                <h3>Resident Evil 2 remake</h3>
+                                <iframe src="https://www.youtube.com/embed/u3wS-Q2KBpk"></iframe>
+                            </section>
 
-                        <section>
-                            <p>Resident Evil Village</p>
-                            <iframe width="560" height="315" preload src="https://www.youtube.com/embed/ztj8fv6Ttp8"></iframe>
-                        </section>
+                            
+                            <section>
+                                <h3>Resident Evil 3 remake</h3>
+                                <iframe src="https://www.youtube.com/embed/BBky2uCGqtM"></iframe>
+                            </section>
+
+                            
+                            <section>
+                                <h3>Resident Evil 4 remake</h3>
+                                <iframe src="https://www.youtube.com/embed/O75Ip4o1bs8"></iframe>
+                            </section>
+
+                            
+                            <section>
+                                <h3>Resident Evil Village</h3>
+                                <iframe src="https://www.youtube.com/embed/ztj8fv6Ttp8"></iframe>
+                            </section>
+
+                        </div>
 
                     </article>
 
+
                 </main>
 
-                <aside>
 
-                </aside>
-
-        <footer>
+        <footer class="col-12 col-md-12">
             <p>copyright © 2022 Mario Ruiz</p>
 
             <!-- Estructura de div y ul para a la hora de modificarlo con css sea mas facil moverlo -->
-            <div>
+            <div id="div_footer">
 
                 <ul>
 
-                    <li><a href="https://twitter.com/re_games" target="_blank"><img src="../img/twitter.png" alt="logo_twitter"></a></li>
+                    <li><a href="https://twitter.com/re_games" target="_blank"><img class="img_footer" src="../img/twitter.png" alt="logo_twitter"></a></li>
                     
-                    <li><a href="https://www.instagram.com/residentevil/?hl=es" target="_blank"><img src="../img/instagram.png" alt="logo_instagram"></a></li>
+                    <li><a href="https://www.instagram.com/residentevil/?hl=es" target="_blank"><img class="img_footer" src="../img/instagram.png" alt="logo_instagram"></a></li>
 
-                    <li><a href="https://www.facebook.com/residentevil/?brand_redir=1038883576197572" target="_blank"><img src="../img/facebook.png" alt="logo_facebook"></a></li>
+                    <li><a href="https://www.facebook.com/residentevil/?brand_redir=1038883576197572" target="_blank"><img class="img_footer" src="../img/facebook.png" alt="logo_facebook"></a></li>
 
                 </ul>
 

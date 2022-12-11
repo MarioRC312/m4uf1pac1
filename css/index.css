@@ -1,96 +1,148 @@
-
-/* main */
-
-/* separar un poco el titulo y hacerlo mas grande */
-
-h1 {
-    margin: 3rem; 
-    font-size: 2rem; 
+header {
+    
+    background-color: black;
+    height: 16.6vh;
 }
 
-/* hacer flotar el main */
-
-main {
-    float: left;
+nav {
+    height: 16.6vh;
 }
 
-/* hacer floar el article dentro del main */
+article {
+    height: auto;
+}
 
-main article{
-    float: left;
+article h1{
+    padding: 1rem;
+}
+
+section{
     margin: 2rem;
 }
 
-/* alinear los titulos h2 de los section */
-
-section h2 {
-    text-align: center;
+.img_centrades{
+    display: flex;
+    justify-content: center;
 }
 
-/* hacer las imagenes de los personajes mas grande y poner espacio entre ellas */
+.img_centrades img {
+    width: 200px;
+}
 
-section > img{
-    width: 20rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+#div_article_imagenes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
-/* hacer flotar las imagenes de los persaonajes */
+aside {
+    height: auto;
+}
 
-#claire {
+aside h2{
+    padding: 1rem;
+}
+
+.img_aside{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.img_aside img{
+    width: 400px;
+}
+
+p{
+    padding: 1rem;
+}
+
+
+
+/* Mediaqueri */
+
+
+
+[class*="col-"] {
     float: left;
 }
 
-#alcina {
-    float: left;
-}
-
-#valentine {
-    float: left;
-}
-
-#kennedy {
-    float: left;
-}
-
-/* aside */
-
-/* separar un poco el aside del main  */
-
-aside{
-    margin: 5rem 5rem 1rem 1rem;
-    float: left;
-}
-
-/* modificar los titulos del aside para que estan mas separados y sean mas grandes (h2) */
-
-aside h2 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 3rem;
-}
-
-/* modificar los titulos del aside para que estan mas separados y sean mas grandes (h3) */
-
-aside h3 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-}
-
-
-
-
-
-/* footer */
-
-
-footer {
-    margin: 1rem;
+.row::after{
+    content: "";
     clear: both;
+    display: table;
 }
 
-footer ul {
-    list-style: none;
-} 
+.col-0 {display:none;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .col-xs-1 {width: 8.33%;}
+    .col-xs-2 {width: 16.66%;}
+    .col-xs-3 {width: 25%;}
+    .col-xs-4 {width: 33.33%;}
+    .col-xs-5 {width: 41.66%;}
+    .col-xs-6 {width: 50%;}
+    .col-xs-7 {width: 58.33%;}
+    .col-xs-8 {width: 66.66%;}
+    .col-xs-9 {width: 75%;}
+    .col-xs-10 {width: 83.33%;}
+    .col-xs-11 {width: 91.66%;}
+    .col-xs-12 {width: 100%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+    header{height: 25vh;}
+    nav {height: 25vh;}
+    .indice {
+        font-size: 2rem; 
+        padding: 1rem;  
+    }
+    #article {height: auto;}
+    #aside{height: 84.4vh;}
+    footer {height: 25vh;}
+    
+}

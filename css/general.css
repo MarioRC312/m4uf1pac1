@@ -1,67 +1,171 @@
-/* article */
+header {
+    height: 16.6vh;
+}
 
-/* separar el article de la parte superior */
+nav {
+    height: 16.6vh;
+}
 
 article {
-    margin-top: 3rem;
+    height: auto;
+    font-size: 20px;
 }
 
-/* separar el titulo (h2) del article */
-
-article h2 {
-    margin: 2rem;
+aside {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
 }
 
-/* separar el titulo (h3) del article, parte superor, lateral izquiero, lateral derecho */
+aside img{
+    width: 50px;
+}
 
-article h3 {
+footer {
+    height: 8.3vh;
+
+}
+
+h2 {
+    padding: 1rem;
+}
+
+h3 {
+    padding: 1rem;
+}
+
+#re4_estreno{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#re4_estreno img{
+    width: 370px;
+    margin-right: 1rem;
     margin-top: 1rem;
-    margin-left: 1rem;
     margin-bottom: 1rem;
 }
 
-/* a los parrafos de article hacerles un padding para separarlos (de forma interna) */
 
-article p {
-    padding: 1rem;
+#consolas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-/* alinear la foto del #lanzamiento, junto a su texto */
-
-#lanzamiento {
-    text-align: center;
+#consolas img{
+    width: 450px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-/* modificar el tamaño de la imagen de #lanzamiento */
-
-#lanzamiento img{
-    width: 35rem;
-    height: auto;
+#portada_juegos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-/* alinear la foto del #disponibilidad, junto a su texto */
-
-#disponibilidad {
-    text-align: center;
+#portada_juegos img{
+    width: 300px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-/* modificar el tamaño de la imagen de #disponibilidad */
-
-#disponibilidad img {
-    width: 50rem;
-    height: auto;
+p {
+    padding: 1.5rem;
 }
 
-/* alinear la foto del #disponibilidad, junto a su texto */
 
-#octubre_2022 {
-    text-align: center;
+
+/* Mediaqueri */
+
+
+
+[class*="col-"] {
+    float: left;
 }
 
-/* aside */
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 
-/* a los parrafos de aside hacerles un padding para separarlos (de forma interna) */
+.col-0 {display:none;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
-aside  {
-    padding: 1rem;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .col-xs-1 {width: 8.33%;}
+    .col-xs-2 {width: 16.66%;}
+    .col-xs-3 {width: 25%;}
+    .col-xs-4 {width: 33.33%;}
+    .col-xs-5 {width: 41.66%;}
+    .col-xs-6 {width: 50%;}
+    .col-xs-7 {width: 58.33%;}
+    .col-xs-8 {width: 66.66%;}
+    .col-xs-9 {width: 75%;}
+    .col-xs-10 {width: 83.33%;}
+    .col-xs-11 {width: 91.66%;}
+    .col-xs-12 {width: 100%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+    header{height: 25vh;}
+    nav {height: 25vh;}
+    .indice {
+        font-size: 2rem; 
+        padding: 1rem;  
+    }
+    #article {height: auto;}
+    #aside{
+        height: 84vh;
+        padding: 5rem;
+        margin-bottom: 20rem;
+    }
+    footer {height: 25vh;}
+    
 }
